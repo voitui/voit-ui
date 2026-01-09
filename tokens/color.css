@@ -1,0 +1,40 @@
+:root {
+  /* Background */
+  --bg-page: var(--background-base);
+  --bg-surface: var(--background-1);
+  --bg-muted: var(--background-2);
+  --bg-subtle: var(--background-3);
+  --bg-elevated: var(--background-4);
+  --bg-inverse: var(--background-inverse);
+
+  /* Text */
+  --text-primary: var(--text-primary);
+  --text-secondary: var(--text-secondary);
+  --text-muted: var(--text-muted);
+  --text-disabled: var(--text-disabled);
+  --text-inverse: var(--text-inverse);
+
+  /* Border */
+  --border-default: var(--border-1);
+  --border-subtle: var(--border-2);
+  --border-strong: var(--border-3);
+  --border-focus: var(--accent);
+  --border-inverse: var(--inverse);
+
+  /* Accent */
+  --accent-primary: var(--accent);
+  --accent-primary-hover: var(--accent-light);
+  --accent-primary-muted: var(--accent-light);
+  --accent-primary-inverse: var(--inverse);
+}
+
+[data-theme="dark"] {
+  /* Background */
+  --bg-page: var(--background-base);
+  --bg-surface: var(--background-1);
+  --bg-muted: var(--background-2);
+  --bg-subtle: var(--background-3);
+  --bg-elevated: var(--background-4);
+  --bg-inverse: var(--background-inverse);
+}
+
